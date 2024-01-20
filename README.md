@@ -2,7 +2,7 @@
 
 A super lightweight templating class that merges content, and the results of custom functions, with an HTML file.
 
-## Features
+## 🚀 Features
 
 - **Variable Replacement**: Easily replace variable placeholders in the HTML content by passing in strings or an array.
 
@@ -12,11 +12,11 @@ A super lightweight templating class that merges content, and the results of cus
 
 - **File or Raw Input**: Load HTML content from a file or use raw HTML input.
 
-## Installation
+## 📦 Installation
 
-Clone the repository or download the `TinyBinder.php` file and include it in your project.
+Clone the repository or download the files from the `src` folder and include them in your project.
 
-## How to Use the Class
+## 🛠️ Usage
 
 Merge single values:
 
@@ -56,7 +56,7 @@ Save time by using the static shorthand. This is equivalent to calling `addAsset
 $result = TinyBinder::make('path/to/template.html', ['name' => 'John', 'age' => 25], true);
 ```
 
-## How to Create a Template
+## 📄 How to Create a Template
 
 **1) Add a variable placeholder**
 
@@ -82,7 +82,7 @@ Wrap a function placeholder in double curly braces. In the example below, `{{ @t
 </html>
 ```
 
-## How to Add a Custom Function
+## ⚙️ How to Add a Custom Function
 
 Add a new closure to the included `functions.php` file:
 
@@ -102,7 +102,7 @@ The name of the variable that holds the closure result must match the function p
 </html>
 ```
 
-## Methods
+## 📐 Methods
 
 - `make($path, $values, $debug = false)`: Creates a new template instance and initialises it with the provided path and values.
 
@@ -114,11 +114,11 @@ The name of the variable that holds the closure result must match the function p
 
 - `getHtml()`: Gets the processed HTML content after variable and function replacement.
 
-## Contributions
+## 🌐 Contributions
 
 Feel free to contribute or fix any issues. Create a pull request or open an issue for discussion.
 
-## License
+## 📝 License
 
 This project is licensed under the [MIT License](LICENSE).
 
